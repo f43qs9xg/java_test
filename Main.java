@@ -1,8 +1,13 @@
+import java.util.HashSet;
+import java.util.Set;
+
 public class Main {
     public static void main(String[] args){
         // 10の要素を持つ配列
         int[] x = {5, 10, 15, 20, 7, 18, 4, 1, 25, 19};
         int[] index = {0,1,2,3,4,5,6,7,8,9};
+
+        Set<String> colors = new HashSet<String>();
 
         bubbleSort(x, index);
 
